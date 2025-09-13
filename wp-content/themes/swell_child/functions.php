@@ -144,4 +144,13 @@ add_action('wp_enqueue_scripts', function() {
 	wp_enqueue_style('child_style', get_stylesheet_directory_uri() .'/style.css', [], $timestamp);
 
 	/* その他の読み込みファイルはこの下に記述 */
+	wp_enqueue_script(
+		'child_script',
+		get_stylesheet_directory_uri() .'/script.js',
+		array(),
+		'1.0.1',
+		array(
+			'strategy'  => 'defer',
+		)
+	);
 }, 11);

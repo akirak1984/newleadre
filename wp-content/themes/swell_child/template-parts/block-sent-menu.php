@@ -1,21 +1,10 @@
-<div class="container">
+<div class="container mt-3">
   <div class="row">
-    <div class="col-md-4 text-center">
-      <a href="<?php echo home_url('service') ?>" class="c-author">
+    <div class="col-md-6 text-center text-bg-custom-gradient">
+      <p class="my-3">マーケティングに役立つ資料をダウンロードできます。</p>
+      <a href="<?php echo home_url('download') ?>" class="c-author">
         <div class="card">
-          <h4 class="card-header" data-sal="slide-up">サービス紹介</h4>
-          <div class="card-body">
-            <figure class="card-img-top" data-sal="slide-up">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/template-parts/svg/icon-service-01.svg" alt="" width="67" height="67">
-            </figure>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-md-4 text-center">
-      <a href="<?php echo home_url('interview') ?>" class="c-author">
-        <div class="card">
-          <h4 class="card-header" data-sal="slide-up">導入事例</h4>
+          <h4 class="card-header" data-sal="slide-up">お役立ち資料</h4>
           <div class="card-body">
             <figure class="card-img-top" data-sal="slide-up">
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/template-parts/svg/icon-case-01.svg" alt="" width="70" height="70">
@@ -24,7 +13,8 @@
         </div>
       </a>
     </div>
-    <div class="col-md-4 text-center">
+    <div class="col-md-6 text-center text-bg-custom-gradient">
+      <p class="my-3">ブログで最新情報をお届けします。</p>
       <a href="<?php echo home_url('blogs') ?>" class="c-author">
         <div class="card">
           <h4 class="card-header" data-sal="slide-up">ブログ</h4>
